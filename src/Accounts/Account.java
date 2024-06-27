@@ -1,8 +1,13 @@
 package Accounts;
 
-// Balance, Bank, Account Number and Owner
+// Balance, agency, Account Number and Owner
+// Creating a base for the creation of news accounts
+
 public class Account {
-    public static void main(String[] args) throws Exception {
-        
-    }
+    
+    double balance;
+    int agency;
+    int accNumber;
+    String owner;
+
 }
